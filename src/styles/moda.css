@@ -1,0 +1,827 @@
+.m-five-section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+.m-container-publicity{
+   margin: auto;
+   background-color: white;
+   max-height: 290px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.m-container-publicity,.m-img-publicity{
+    grid-column: 4/5;
+    
+    
+}
+
+.m-container-publicity2{
+    margin: auto;
+    background-color: white;
+    max-height: 290px;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+
+.m-container-publicity2,.m-img-publicity2{
+    grid-column: 6/7;
+}
+
+.m-container-publicity3{
+    margin: auto;
+    background-color: white;
+   max-height: 290px;
+   border-radius: 10px;
+   margin-top: 20px;
+ }
+
+.m-container-publicity2,.m-img-publicity2{
+    grid-column: 5/9;
+}
+
+.m-h2-container{
+  grid-row: 2;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+  align-self: center;
+  padding: 5px;
+}
+
+.m-img-publicity2{
+    width: 400px;
+    height: 250px;
+    
+   
+}
+
+/* SEXTA SECCION */
+
+.m-six-section{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 180px;
+    
+    
+
+}
+.m-container-publicity4{
+ 
+    background-color: white;
+   max-height: 290px;
+   border-radius: 10px;
+   margin-top: 20px;
+   
+}
+
+.m-container-publicity5{
+
+    background-color: white;
+    max-height: 290px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.m-container-publicity6{
+
+    background-color: white;
+    max-height: 290px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.m-container-publicity7{
+
+    background-color: white;
+    max-height: 290px;
+    border-radius: 10px;
+    margin-top: 20px;
+   }
+   
+
+.m-container-publicity4,.m-img-publicity3{
+    grid-column: 5/6;
+}
+
+.m-container-publicity5,.m-img-publicity3{
+    grid-column: 7/8;
+}
+
+.m-container-publicity6,.m-img-publicity3{
+    grid-column: 9/10;
+}
+
+.m-container-publicity7,.m-img-publicity3{
+    grid-column: 11/12
+}
+
+
+.m-img-publicity3{
+    width: 280px;
+    height: 250px;
+    
+   
+}
+
+.m-four-section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 15% 85%;
+    max-width: 1200px;
+    max-height: 400px;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 100px;
+    font-family: var(--font);
+}
+
+.m-container{
+    background-color: white;
+    width:203px;
+    height: 410px;
+    grid-row: 2;
+    justify-self:start;
+    
+}
+
+.m-container img{
+    width:200px;
+    height:210px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.m-price{
+    color:rgba(0,0,0,8);
+    font-size:24px
+}
+
+.m-promotion{
+    color:#00a650;
+    font-size: 14px;
+    
+}
+
+.m-travel{
+    color:#00a650;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+
+.m-description{
+    font-size: 14px;
+    
+    
+}
+
+.m-container > .m-button-containe ,.m-a-container{
+    text-decoration: none;
+    color: #3483fa;
+    margin-right: 18px;
+}
+
+    .m-container >.m-button-container{
+    padding: 8px;
+    
+    justify-self: center;
+    width: 175px;
+    color: #3483fa;
+    border: #3483fa 1px solid;
+    margin-left: 13px;
+    background: white;
+    cursor: pointer;
+}
+
+.m-container >.m-button-container:hover{
+    background: whitesmoke;
+}
+
+.m-container .m-third-image{
+    width:29px;
+    height:23px
+
+}
+
+.m-first-title{
+    grid-column: 1/5;
+    grid-row: 1;
+    justify-self:start;
+    align-self:center;
+    margin-left: 10px;
+    color: #666;
+    font-size: 20px;
+    }
+    
+.m-sub-title{
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-top: 15px;
+    justify-self:center;
+    align-self:center;
+    margin-right: 275px;
+    text-decoration: none;
+    color:var(--color1);
+        
+    
+    }
+
+.m-five-section-moda{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 100px;
+    margin-left: 25px;
+    
+    
+    }
+
+    .m-container-promotion-1{
+        background-color: white;
+        max-height: 341px;
+        min-width: 560px;
+        border-radius: 10px;
+        margin-top: 20px;
+        
+       
+        
+    }
+
+    .m-container-promotion-2{
+        background-color: white;
+        max-height: 341px;
+        min-width: 560px;
+        border-radius: 10px;
+        margin-top: 20px;
+        
+        
+        
+    }
+
+.m-container-promotion-1,.m-img-promotion{
+    grid-column: 7/10;
+    
+
+    }
+
+.m-container-promotion-2,.m-img-promotion{
+    grid-column: 11/14;
+
+    }
+
+.m-img-promotion{
+    width: 560px;
+    height: 300px;
+    
+}
+
+.m-h2-container-1{
+    grid-row: 2;
+    text-align: center;
+    margin-top: 5px;
+    align-self: center;
+    font-size: 15px;
+    font-family: var(--font);
+    }
+
+.m-last-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: auto;
+    max-width: 1200px;
+    margin-left: 340px;
+    margin-bottom: 50px;
+    font-family: var(--font);
+    font-size: 13px;
+    
+    
+    
+}    
+
+
+.m-container-first-option{
+    width: 375px;
+    grid-column: 1/3;
+    margin-left: -40px;
+    
+}
+
+.m-container-second-option{
+    width: 375px;
+    grid-column: 5/7;
+    margin-left: -30px;
+
+    
+}
+
+.m-container-third-option{
+    width: 375px;
+    grid-column: 8/11;
+    margin-left: -45px;
+}
+
+.m-container-quarter-option{
+    width: 375px;
+    grid-column: 12/16;
+    
+}
+
+.m-container-fifth-option{
+    width: 375px;
+    grid-column: 16/19;
+    
+}
+
+
+
+ul > li,a{
+    list-style: none;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    text-align: start;
+    width: 120%;
+    
+}
+
+.m-title-list{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1440px){
+.m-five-section{
+    
+    margin-left: -16px;
+}
+
+.m-container-publicity3{
+    margin-left: 269px;
+}
+
+.m-six-section{
+    margin-left: 39px;
+    grid-gap: 16px;
+}
+
+.m-five-section-moda{
+
+margin-left: 15px;
+}
+
+.m-container-promotion-1{
+    margin-left: -112px;
+}
+
+.m-last-section{
+    margin-left: 99px;
+}
+
+}
+
+@media (max-width: 1024px){
+
+.m-img-publicity2{
+    width: 308px;
+}
+
+.m-five-section{
+    margin-left: -10px;
+}
+
+.m-six-section{
+    margin-left: -11px;
+    grid-gap: 11px;
+}
+
+.m-img-publicity3{
+    width: 220px;
+    height: 250px;
+
+}
+
+.m-container img{
+    width: 190px;
+}
+
+.m-container{
+    width: 197px;
+}
+
+.m-sub-title{
+    margin-top: 12px;
+    width: 121px;
+    grid-column: 3/4;
+}
+
+.m-four-section{
+    margin-left: 5px;
+}
+
+.m-container-promotion-2{
+    min-width: 483px;
+}
+
+.m-img-promotion{
+    width: 483px;
+}
+
+.m-container-promotion-1{
+    min-width: 483px;
+    margin-left: -166px;
+}
+
+.m-five-section-moda{
+    margin-left: 20px;
+    grid-gap: 17px;
+}
+
+.m-title-list{
+    font-size: 14px;
+}
+
+.m-last-section{
+    font-size: 11px;
+    margin-left: 0px;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+
+.m-five-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: -53px;
+}
+
+
+
+.m-container-publicity{
+grid-column: 1;
+grid-row: 1;
+margin-left: 64px;
+}
+
+
+#container-publicity-1{
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 18px
+}
+
+.m-container-publicity2{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 64px;
+}
+
+
+#container-publicity-2{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 18px
+}
+
+.m-container-publicity3{
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 64px;
+}
+
+
+#container-publicity-3{
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 18px
+}
+
+.m-img-publicity2{
+    width: 350px;
+}
+
+#glases{
+    display: none;
+
+}
+
+#t-shirt{
+    display: none;
+}
+
+.m-six-section{
+    margin-left: -33px;
+}
+
+.m-img-publicity3{
+    width: 230px;
+}
+
+#headphone{
+    display: none;
+}
+
+#shoes{
+    display: none;
+}
+
+.m-container{
+    width: 228px;
+}
+
+.m-container img{
+    width: 225px;
+}
+
+.m-four-section{
+    gap: 0px 100px;
+    margin-left: 15px;
+}
+
+.m-container .m-button-container{
+    width: 201px;
+}
+
+.m-container-promotion-2{
+    grid-column: 10/14;
+    min-width: 357px;
+}
+
+.m-container-promotion-1{
+    min-width: 357px;
+}
+
+.m-img-promotion{
+    width: 357px;
+}
+
+.m-five-section-moda{
+    grid-gap: 0px;
+    margin-left: 80px;
+}
+
+.m-last-section{
+    font-size: 9px;
+}
+
+.m-title-list{
+    font-size: 12px;
+}
+
+.m-container-third-option{
+    margin-left: 0px
+}
+
+
+
+}
+
+@media (max-width: 425px){
+
+    .m-five-section{
+        margin-left: -59px;
+        grid-gap: 0px;
+    }
+    
+    
+    .m-img-publicity2{
+        width: 183px;
+        height: 200px;
+    }
+
+    .m-six-section{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: auto;
+        grid-gap: 6px;
+    }
+
+    #container-publicity-6{
+       grid-column: 1;
+       grid-row: 3;
+    }
+
+    #container-publicity-baby{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #container-publicity-underwear{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #container-publicity-pants{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #container-publicity-bags{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #container-publicity-watch{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .m-img-publicity3{
+        width: 189px;
+        height: 225px;
+
+    }
+    .m-four-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 29px;
+        margin-left: 56px;
+    }
+
+    #clothes{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #watchs{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #laptop{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .m-container{
+        height: 520px;
+        width: 272px;
+    }
+
+    .m-container img{
+        height: 307px;
+        width: 270px;
+    }
+
+    .m-five-section-moda{
+        margin-top: 1282px;
+    }
+
+    .m-first-title{
+        display: none;
+    }
+
+    .m-five-section-moda{
+        
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-left: -25px;
+        grid-gap: 34px;
+    }
+
+    #sport{
+        grid-column:1;
+        grid-row: 1;
+        margin: auto;
+    }
+
+    #beautiful{
+        grid-column:1;
+        grid-row: 2;
+        margin: auto;
+    }
+
+    #ofert{
+        grid-column:1;
+        grid-row: 3;
+        margin: auto;
+    }
+
+    #fashion{
+        grid-column:1;
+        grid-row: 4;
+        margin: auto;
+        
+    }
+
+    .m-img-promotion{
+        width: 357px;
+    }
+
+    .m-container-third-option{
+        display: none;
+    }
+
+    .m-container-quarter-option{
+        display: none;
+    }
+
+    .m-container-fifth-option{
+        display: none;
+    }
+
+    .m-container-second-option{
+        margin-left: 98px;
+    }
+
+    .m-container-first-option{
+        margin-left: -20px;
+    }
+
+    #container-publicity-1{
+        margin-left: 8px;
+    }
+
+    #container-publicity-2{
+        margin-left: 8px;
+    }
+
+    #container-publicity-3{
+        margin-left: 8px;
+    }
+
+    .m-last-section{
+        width: 384px;
+    }
+
+}
+
+@media (max-width: 375px){
+
+    #container-publicity-1{
+        margin-left: 4px;
+    }
+
+    #container-publicity-2{
+        margin-left: 4px;
+    }
+
+    #container-publicity-3{
+        margin-left: 4px;
+    }
+
+    .m-img-publicity2{
+        width: 167px;
+    }
+
+    .m-five-section{
+        margin-left: -66px;
+    }
+
+    .m-img-publicity3{
+        width: 165px;
+    }
+
+    .m-four-section{
+        margin-left: 34px;
+    }
+
+    .m-img-promotion{
+        width: 329px;
+    }
+
+    .m-five-section-moda{
+        margin-left: -25px;
+
+    }
+
+    .m-ul-last-1{
+        margin-left: -29px;
+        
+    }
+
+    .m-container-promotion-1{
+        min-width: 327px;
+    }
+
+    .m-container-promotion-2{
+        min-width: 329px;
+    }
+
+    .m-last-section{
+        width: 335px;
+    }
+
+    
+
+
+}

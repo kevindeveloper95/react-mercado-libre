@@ -1,0 +1,438 @@
+/*AQUI EMPIEZA LA CUARTA SECCION*/
+.o-header{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    background-color: white;
+    min-height: 170px;
+    margin: auto;
+    
+}
+
+.o-list-header {
+    grid-column: 5/6;
+    min-width: 350px;
+    min-height: 100px;
+    margin-left: 140px;
+    align-self: end;
+    
+}
+
+.o-list-ofertas{
+font-size: 30px;
+font-weight: bolder;
+
+}
+
+
+
+.o-header img{
+    width: 150px;
+    height: 60px;
+    margin-top: 16%;
+}
+
+.o-container-img{
+    display: grid;
+    justify-self: center;
+    align-self: center;  
+    width: 150px;
+}
+
+.o-img-header{
+    margin-left: 15%;
+}
+
+.o-a-header{
+display: grid;
+justify-content: center ;
+margin-left: -8%;
+}
+
+.o-a-header:hover{
+    color: royalblue;
+
+}
+
+
+
+
+
+.o-four-section{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1300px;
+    max-height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    font-family:var(--font);
+   
+}
+
+.o-container-1{
+    width:203px;
+    height: 410px;
+    grid-column: 15/16;
+    justify-self:start;
+    background-color: white;
+    min-height: 570px;
+    margin-left: 93px;
+    
+}
+
+.o-container-2{
+    background-color: white;
+    width:203px;
+    height: 410px;
+    grid-column: 17/18;
+    justify-self:start;
+    min-height: 570px;
+
+    
+}
+
+.o-container-3{
+    background-color: white;
+    width:203px;
+    height: 410px;
+    grid-column: 19/20;
+    justify-self:start;
+    min-height: 570px;
+    
+    
+}
+
+.o-container-1, .o-second-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.o-container-2, .o-three-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.o-container-3, .o-four-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.o-container-1 .o-price,.o-ofter,.o-travel,.o-description,.o-promotion{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.o-container-2 .o-price,.o-travel,.o-description,.o-promotion{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.o-container-3 .o-price,.o-travel,.o-description,.o-promotion{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.o-offer{
+    font-size: 11px; 
+    margin-left: 20px;
+    background-color: #3483fa;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+.o-price{
+    color:rgba(0,0,0,8);
+    font-size:24px
+    }
+
+    .o-promotion{
+        color:#00a650;
+        font-size: 14px;
+        
+    }
+
+    .o-travel{
+        color:#00a650;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .o-description{
+        font-size: 14px;
+        
+    }
+
+    .o-container-1 > .o-button-containe ,.o-a-container{
+      text-decoration: none;
+      color: #3483fa;
+      margin-right: 18px;
+    }
+
+    .o-container-2 > .o-button-containe ,.o-a-container{
+        text-decoration: none;
+        color: #3483fa;
+        margin-right: 18px;
+      }
+
+      .o-container-3 > .o-button-containe ,.o-a-container{
+        text-decoration: none;
+        color: #3483fa;
+        margin-right: 18px;
+      }
+
+     .o-container-1 >.o-button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .o-container-2 >.o-button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .o-container-3 >.o-button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .o-container-1 >.o-button-container:hover{
+      background: whitesmoke;
+    }
+
+    .o-container-2 >.o-button-container:hover{
+        background: whitesmoke;
+      }
+
+      .o-container-3 >.o-button-container:hover{
+        background: whitesmoke;
+      }
+
+    .o-container-1 .o-third-image{
+        width:29px;
+        height:23px
+
+    }
+
+    .o-container-2 .o-third-image{
+        width:29px;
+        height:23px
+
+    }
+
+    .o-container-3 .o-third-image{
+        width:29px;
+        height:23px
+
+    }
+
+    .o-ofertas{
+        grid-column: 3/5;
+        grid-row: 1;
+        max-width: 200px;
+        
+        margin-top: 0px;
+        
+    }
+
+    .o-ofertas ul,li,a{
+        text-decoration: none ;
+        list-style: none;
+        padding: 5px;
+        color: #333;
+        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        font-size: 14px;
+       
+        
+
+    }
+
+    .o-lista{
+        width: 280px;
+    }
+
+    .o-title{
+        font-size: 16px;
+        font-weight: bolder;
+        color: black;
+        margin-left: 8px;
+        margin-top: 20px;
+        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        min-width: 165px;
+        
+    }
+
+
+
+    @media (max-width: 1440px){
+
+.o-header{
+    width: 1425px;
+    margin-left: -1px;
+}
+
+.o-list-header{
+    min-width: 282px;
+    margin-left: -47px;
+}
+
+.o-container-img{
+    width: 201px;
+    margin-left: -25px;
+}
+
+.o-header img{
+    width: 232px;
+}
+
+
+
+
+    }
+
+
+    @media (max-width: 1024px){
+.o-header{
+    width: 1008px;
+    margin-left: 0px;
+    
+}
+
+.o-list-header{
+   display: none;
+}
+
+.o-ofertas{
+    display: none;
+}
+
+.o-four-section{
+    margin-left: -302px;
+}
+
+.o-container-img{
+    width: -1px;
+    margin-left: -32px;
+}
+
+.o-header img{
+    width: 183px;
+}
+  
+
+    }
+
+
+    @media (max-width: 768px){
+
+    #header-ofert{
+        margin-left: 0px;
+        width: 752px;
+    }
+
+     #headphones{
+         display: none;
+     }
+
+     #money{
+         display: none;
+     }
+
+     .o-header{
+        margin-left: -131px;
+     }
+
+
+     .o-container-3{
+        display: none;
+     }
+
+     .o-four-section{
+        margin-left: -427px;
+     }
+
+     .o-container-img{
+        margin-left: -14px;
+     }
+
+
+    }
+
+
+    @media (max-width: 425px){
+
+   #market{
+       display: none;
+   }
+
+   #videogame{
+       display: none;
+   }
+
+   #header-ofert{
+    width: 409px;
+    margin-left: -4px;
+    
+   }
+
+
+   .o-container-2{
+  display: none;
+    
+   }
+
+   .o-four-section{
+    margin-left: -340px;
+   }
+
+   .o-container-img{
+    margin-left: -8px;
+    
+   }
+
+    }
+
+@media (max-width: 375px){
+    
+.o-four-section{
+    margin-left: -292px;
+}
+
+#header-ofert{
+    width: 371px;
+}
+
+
+
+}
