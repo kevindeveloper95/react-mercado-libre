@@ -1,16 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Fragment } from 'react/cjs/react.production.min'
 import '../styles/CrearCuenta.css'
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
+import { useHistory } from 'react-router';
+
 
 const CrearCuenta = () => {
    
     const {register, errors, handleSubmit} = useForm();
+    const history = useHistory()
 
-    const onSubmit = () => {
-        window.location.href = "/usuario-registrado";
+    const saveLocalStorage = localStorage.getItem("cuenta")
+    let parsetodos
+
+    if (!saveLocalStorage) {
+        localStorage.setItem("cuenta", JSON.stringify([]) )
+        parsetodos = []
+    }else{
+       parsetodos = JSON.parse(saveLocalStorage)
     }
+
+    const [traer, settraer] = useState(parsetodos);
+    
+
+    const onSubmit = (newtodos) => {
+        history.push("/usuario-registrado")
+
+
+        const nameLocalStorage = JSON.stringify(newtodos)
+        localStorage.setItem('cuenta', nameLocalStorage )
+        settraer(newtodos)
+
+
+
+        
+
+
+       
+
+    }
+
+    
+
+   
 
 
     return (
@@ -24,7 +57,7 @@ const CrearCuenta = () => {
 <section className="create-account">
         <div className="container-nombre">
         <p>Nombre</p>
-        <input className="input-form"type="text"   placeholder="Ingrese nombre de usuario" name="nombre"
+        <input className="input-form"type="text"   placeholder="Ingrese nombre de usuario" id='nombre'name="nombre"
         ref={register({ required: { value: true,  message: 'Nombre es requerido' }, 
         maxLength: {value: 10, message: 'Maximo 10 carácteres!'},
         minLength: {value: 2,  message: 'Mínimo 2 carácteres' },
@@ -79,13 +112,16 @@ const CrearCuenta = () => {
         
     </div>
     <div className="container-button">
-    <button className="submit" type="submit">Save</button>
+    <button className="submit" type="submit">Save</button> 
     </div>
 </section>
 </form>
 
 </Fragment>
+
+
     )
+   
 }
 
 export default CrearCuenta

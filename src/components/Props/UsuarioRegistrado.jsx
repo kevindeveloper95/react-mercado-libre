@@ -2,7 +2,7 @@ import React from 'react'
 import { Fragment } from 'react/cjs/react.production.min'
 import Header from '../header'
 
-const HeaderRegistrado = () => {
+const UsuarioRegistrado = () => {
     return (
         <Fragment>
            <Header name="kevin"/>    
@@ -10,4 +10,4 @@ const HeaderRegistrado = () => {
     )
 }
 
-export default HeaderRegistrado
+export default UsuarioRegistrado

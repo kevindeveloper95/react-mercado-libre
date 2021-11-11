@@ -9,7 +9,7 @@ const publicity = () => {
         <div className="slider">
             <ul> 
                 <li><img className="publicity" src="../img/publicidad-cabecera.jpg" alt=""/></li>
-                <li><img className="publicity" src="../img/liverpool.jpg" alt=""/></li>
+                <li><img className="publicity" src="../img/anuncio.png" alt=""/></li>
                 <li><img className="publicity" src="../img/publicidad.jpg" alt=""/></li>
                 <li><img  className="publicity" src="../img/precio.jpg" alt=""/></li>
             </ul>

@@ -3,7 +3,7 @@ import Footer from './components/footer';
 import Content from './components/content';
 import Publicity from './components/publicity';
 import Ofertas from './components/ofertas';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import './App.css';
 import Historial from './components/historial';
 import Supermercado from './components/supermercado';
@@ -15,7 +15,8 @@ import ComputadoraHp from './components/all-products/ComputadoraHp';
 import PlayeraPolo from './components/all-products/PlayeraPolo';
 import TenisJordan from './components/all-products/TenisJordan';
 import AudifonosXiaomi from './components/all-products/AudifonosXiaomi';
-import HeaderRegistrado from './components/Props/HeaderRegistrado';
+import UsuarioRegistrado from './components/Props/UsuarioRegistrado';
+import Carrito from './components/Carrito';
 
 function App() {
   return (
@@ -101,8 +102,13 @@ function App() {
          <Footer/>  
          </Route>
          <Route path='/usuario-registrado'>
-         <HeaderRegistrado/>  
+         <UsuarioRegistrado/>  
            <Content/>
+         <Footer/>  
+         </Route>
+         <Route path='/carrito'>
+         <Header/>  
+           <Carrito/>
          <Footer/>  
          </Route>
       </Switch>
